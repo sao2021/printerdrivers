@@ -1,0 +1,8 @@
+User-agent: *
+Sitemap: https://printerdrivers.herokuapp.com/host-https-printerdrivers.com/sitemap_index.xml
+Disallow: /wp-admin/*
+Disallow: *download=file*
+Disallow: *?download=/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /?s=
+Disallow: /search/
